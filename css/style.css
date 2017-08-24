@@ -1,0 +1,1163 @@
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/Futura PT/FUTURAPTBOLD.OTF');
+	font-weight: normal;
+   }
+
+
+ @font-face {
+    font-family: 'Futura PT Demi';
+    src: url('../fonts/Futura PT/FUTURAPTDEMI.OTF'); 
+    font-weight: normal;
+   } 
+
+
+ @font-face {
+    font-family: 'Futura PT Medium';
+    src: url('../fonts/Futura PT/FUTURAPTMEDIUM.OTF'); 
+    font-weight: normal;
+   }  
+
+  @font-face {
+    font-family: 'Futura PT Book';
+    src: url('../fonts/Futura PT/FUTURAPTBOOK.OTF'); 
+    font-weight: normal;
+   }  
+
+
+
+body {
+	font-family: 'Futura PT';
+	min-width: 1170px;
+}
+
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+* {
+
+	box-sizing: border-box;
+}
+
+/* -------------------------- Header ----------------------------*/
+.promo {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background-image: url(../img/header-background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+	width: 100%;
+	height: 645px;
+}
+
+
+.promo p {
+	font-size: 38px;
+	color: white;
+	font-family: 'Futura PT Demi';
+}	
+
+
+
+h1 {
+	font-size: 50px;
+	color: white;
+	max-width: 460px;
+	font-family: 'Futura PT';
+	font-weight: bold;
+}
+
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Futura PT Demi';
+	font-weight: bold;
+}
+
+
+
+.header-nav {
+margin-top: 37px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	border: 4px solid #000;
+	padding: 15px 20px;
+	margin-right: 43px;
+	vertical-align: middle;
+
+}
+
+.main-menu {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0; 
+  padding-left: 0; 
+}
+
+.main-menu a {
+  text-decoration: none; 
+  color: #000;
+  font-size: 15px;
+  font-family: 'Futura PT Medium';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-menu li {
+  float:left; 
+  margin-right: 45px;
+}
+
+
+
+a.phone-number {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Futura PT Demi';
+	font-weight: bold;
+	font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-left: 36px;
+	color: #74e196;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn:hover {
+	background: #74e196;
+	color: #fff;
+}
+
+.btn:active {
+	background: #fff;
+	color: #74e196;
+}
+
+.btn-black {
+	border: 2px solid #000;
+	padding: 15px 17px;
+}
+
+/* -------------------------- Services ----------------------------*/
+.services {
+	
+}
+
+
+.services p {
+	font-size: 20px; 
+	text-align: center;
+	font-family: 'Futura PT Medium';
+	font-weight: bold;
+} 
+
+.services-box {
+	padding: 20px;
+	vertical-align: top;
+}
+
+.services-box p {
+	text-align: left;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 22px;
+}
+
+.services-box-vertical {
+	display: inline-block;
+	width: 362px;
+}
+
+.services-box-vertical img {
+	width: 100%;
+	height: auto;
+}
+
+
+.services-column {
+	display: inline-block;
+	width: 750px;
+	vertical-align: top;
+}
+
+h3 {
+	font-size: 20px;
+	width: 100%;
+	font-family: 'Futura PT Medium';
+}
+
+.services-box-horizontal img{
+	width: 50%;
+	height: auto; 
+	padding-right: 20px;
+}
+ .services-inf-hor {
+ 	width: 50%;
+ 	float: right;
+ 	padding-left: 20px;
+ }
+
+ .services-inf-ver {
+	padding-top: 20px;
+}
+
+p.services-time {
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	width: 85%;
+	margin-top: 0;
+	vertical-align: top;
+	
+}
+
+.services-link {
+	background-image: url(../img/right-arrow.png);
+	width: 37px;
+    height: 27px;
+   float: left;
+    vertical-align: top;
+
+}
+
+.services-box-horizontal h3{
+	margin-top: 0;
+}
+
+.services-box-horizontal{
+
+}
+/* -------------------------- Why us ----------------------------*/
+
+
+
+.why-us-box {
+	display: inline-block;
+	width: 33%;
+	position: relative;
+	vertical-align: top;
+	padding: 70px 37px;
+	
+}
+
+.why-us-box h3 {
+	text-align: center;
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.why-us-box p {
+	text-align: left;
+	font-size: 15px;
+	line-height: 22px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+}
+
+
+.thumb-up {
+}
+
+.thumb-up::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/sprites.png);
+	background-position: -210px -42px;
+	width: 60px;
+	height: 61px;
+	top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.certificate::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/sprites.png);
+	background-position: 230px -40px;
+	width: 60px;
+	height: 61px;
+	top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.calendar::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/sprites.png);
+	background-position: -144px -42px;
+	width: 58px;
+	height: 61px;
+	top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.skiing::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/sprites.png);
+	background-position: 295px -26px;
+	width: 61px;
+	height: 75px;
+	top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.halmet::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/sprites.png);
+	background-position: -280px -27px;
+	width: 58px;
+	height: 71px;
+	top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bus::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/sprites.png);
+	background-position: 1231px -47px;
+	width: 80px;
+	height: 55px;
+	top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* -------------------------- Sale ----------------------------*/
+.sale {
+	background: url(../img/sale-bg.png) 0 0 no-repeat;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	
+}
+
+.sale::before {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	width: 100%;	
+	height: 100%;
+	opacity: 0.5;
+
+}
+
+
+h2.sale-title {
+	color: white;
+	margin: 0;
+	position: relative;
+	padding-top: 54px;
+}
+
+.sale-box {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	padding: 0 76px;
+	position: relative;
+	vertical-align: top;
+}
+
+h4 {
+	font-family: 'Futura PT Medium';
+	font-size: 22px;
+	margin-bottom: 0;
+}
+
+p.sale-inf {
+	font-family: 'Futura PT Book';
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 40px;
+
+}
+
+.sale a {
+	display: block;
+	width: 135px;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	padding: 15px 20px;
+	position: relative;
+	margin-bottom: 44px;
+}
+
+.sale-number {
+	color: #74e196
+}
+
+
+/* -------------------------- Team ----------------------------*/
+
+.team-block {
+	background-image: url(../img/team.jpg);
+	height: 592px;
+	width: 1000px; 
+	margin: auto;
+	-webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.team-block::before {
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	z-index: 2;
+  background: linear-gradient(to bottom, rgba(230, 229, 234, 0) 0%, rgba(255, 255, 255, 0.85) 100%);
+}
+
+.team-block p {
+	text-align: center;
+    width: 779px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    line-height: 22px;
+    bottom: 100px;
+    left: 130px;
+    position: absolute;
+    z-index: 3;
+}
+
+.team a {
+	display: block;
+	margin: 0 auto;
+	width: 220px;
+	text-align: center;
+	top: -30px;
+    position: relative;
+    z-index: 3;
+}
+
+
+/* -------------------------- Community ----------------------------*/
+
+.community p {
+	text-align: center;
+	width: 799px;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	line-height: 22px;
+	margin-bottom: 45px;
+}
+
+.community-img {
+	overflow: hidden;
+	margin-bottom: 85px;
+	
+}
+
+.community-img ul {
+  list-style: none;
+  margin: 0; 
+  padding-left: 0; 
+  
+}
+
+.community-img li {
+  float:left; 
+  margin: 9px;
+  width: 180px;
+  height: 180px;
+  
+}
+
+.community-img li:first-child {
+	margin-left: 0;
+}
+
+.community-img li:last-child {
+	margin-right: 0;
+}
+
+.community-img img {
+	width: 100%;
+	height: 100%;
+}
+/* -------------------------- Footer ----------------------------*/	
+
+footer {
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+footer::before {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	width: 100%;	
+	height: 100%;
+	opacity: 0.2;
+
+}
+
+.footer-top {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	overflow: hidden;
+
+}
+
+.logo-footer {
+	width: 390px;
+	display: inline-block;
+}
+
+.logo-footer a.logo {
+	display: inline-block;
+	position: relative;
+}
+
+.social-links {
+	width: 340px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.social-links a {
+	margin: 0 20px;
+	position: relative;
+}
+
+
+.youtube {
+	background-image: url(../img/sprites.png);
+	background-position: -50px -1px;
+	width: 32px;
+	height: 32px;
+}
+
+.instagram {
+	background-image: url(../img/sprites.png);
+	background-position: -115px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.facebook {
+	background-image: url(../img/sprites.png);
+	background-position: -90px 0;
+	width: 18px;
+	height: 33px;
+}
+
+.vk {
+	background-image: url(../img/sprites.png);
+	background-position: -150px 0;
+	width: 40px;
+	height: 24px;
+}
+
+
+.contacts {
+	text-align: right;
+	display: inline-block;
+	width: 200px;
+	margin-left: 230px;
+	vertical-align: middle;
+}
+
+.contacts a {
+	position: relative;
+}
+
+.email {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-family: 'Futura PT Demi';
+	line-height: 35px;
+}
+
+
+
+.footer-bottom {
+	padding-bottom: 100px;
+}
+
+.footer-bottom p {
+	font-size: 15px;
+	font-family: 'Futura PT Demi';
+	width: 560px;
+	display: inline-block;
+}
+
+.main-menu-footer {
+	display: inline-block;
+    vertical-align: middle;
+    width: 605px;
+}
+
+.main-menu-footer ul {
+  list-style: none;
+  margin: 0; 
+  padding-left: 0; 
+}
+
+.main-menu-footer a {
+  text-decoration: none; 
+  color: #000;
+  font-size: 16px;
+  font-family: 'Futura PT Medium';
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.main-menu-footer li {
+  float:left; 
+  padding-left: 48px;
+}
+
+
+/* -------------------------- Schtdule Page ----------------------------*/	
+
+/* -------------------------- Header ----------------------------*/	
+.page-header {
+margin-top: 37px;
+}
+
+.main-menu li.active {
+	border-bottom: 3px solid #74e196;
+	padding-bottom: 4px;
+}
+
+/* -------------------------- Schedule table ----------------------------*/	
+
+table {
+	width: 100%;
+	border-bottom: 2px solid #000;
+	border-collapse:collapse;
+	margin-bottom: 40px;
+}
+
+th {
+	border: none;
+	padding: 15px 15px 15px 0;
+	text-align: left;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+td {
+	border: 2px solid #000;
+	padding: 15px 65px 15px 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+td a {
+	text-decoration: none;
+	color: #000;
+}
+
+td a.btn {
+	margin-left: 60px;
+}
+
+/* -------------------------- Instructor Schedule ----------------------------*/	
+
+.instector-schedule-box {
+	border: 2px solid #000;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.instructor-schedule-img {
+	float: left;
+	margin: 50px;
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.instructor-schedule-img img {
+    border: 3px solid #74e196;
+    border-radius: 50%;
+}
+
+.instructor-schedule-img p {
+    width: 192px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Futura PT Book', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 0;
+
+}
+
+.instructor-schedule-inf {
+	width: 500px;
+	float: left;
+	margin: 20px 50px 0 50px;
+}
+
+.instructor-schedule-inf h2 {
+	text-align: left;
+	font-family: 'Futura PT Demi';
+	font-size: 30px;
+}
+
+.instructor-schedule-inf p {
+	font-family: 'PT Sans', sans-serif;;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 22px
+}
+
+.instructor-schedule-inf h3 {
+	font-family: 'Futura PT Medium'
+	font-size: 20px;
+}
+
+a.instructor-schedule {
+	text-decoration: none;
+	color: #000;
+	font-family: 'PT Sans', sans-serif;;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+a.active {
+	border-bottom: 2px solid #74e196;
+	padding-bottom: 4px
+}
+.instructor-schedule-price h2{
+	font-family: 'Futura PT Medium';
+	font-size: 30px;
+	margin-left: 30px;
+}
+
+.instructor-schedule-price {
+	float: left;
+	width: 140px;
+	margin: 20px 0 0 60px;
+}
+
+
+/* -------------------------- Pagination ----------------------------*/	
+
+.pagination {
+	list-style: none;
+	text-align: center;
+	position: relative;
+}
+
+.pagination a {
+	text-decoration: none;
+	color: #000;
+
+}
+
+.pagination li {
+	display: inline-block;
+	padding: 0 3px;
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+	
+}
+
+
+
+a.arrow-prev {
+	background-image: url(../img/Prev.jpg);
+	width: 14px;
+    height: 28px;
+    content: '';
+    position: absolute;
+    left: 45%;
+}
+
+a.arrow-next {
+	content: '';
+	width: 14px;
+    height: 28px;
+    right: 42%;
+    position: absolute;
+	background-image: url(../img/next.jpg);
+}
+
+
+.active span {
+	color: #74e196;
+}
+
+/* -------------------------- Callback Form ----------------------------*/	
+
+.callback {
+	width: 566px;
+	margin: 0 auto;
+}
+
+input {
+	width: 100%;
+	height: 45px;
+	border: 2px solid #000;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+lable {
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+	font-weight: bold;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 2px solid #000;
+	margin: 10px 0;
+	resize: vertical
+}
+
+button {
+	background: transparent;
+	font-weight: bold;
+}
+
+.callback input.btn {
+ background-color: transparent;
+ margin-left: 0;
+ width: 140px;
+ margin: 50px 0 50px 0;
+
+}
+
+.callback input.btn:hover {
+	background: #74e196;
+	color: #fff;
+}
+
+.callback input.btn:active {
+	background: #fff;
+	color: #74e196;
+}
+
+p.submit {
+	text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* -------------------------- Instructors Page ----------------------------*/	
+
+h1.page-title  {
+	max-width: 100%;
+	color: #000;
+	text-align: center;
+	font-family: 'Futura PT Demi';
+	font-size: 40px;
+}
+
+.search {
+	width: 640px;
+	margin: 0 auto;
+	position: relative;
+}
+
+form.search-box {
+	width: 640px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.instructors input[type="search"]{
+	height: 45px;
+    border: 2px solid #000;
+    padding-right: 50px;
+	
+}
+
+.instructors input[type="submit"] {
+	position: absolute;
+	background-image: url(../img/search.png);
+	content: '';
+	width: 27px;
+	height: 27px;
+	background-color: transparent;
+    border: none;
+    font-size: 0;
+    top: 7px;
+    right: 15px;
+	
+}
+
+.instructors-list {
+	font-size: 0;
+	margin: 60px 0;
+
+}
+
+
+a.instructors-item {
+	width: 234px;
+    height: 230px;
+    display: inline-block;
+    position: relative;
+}
+
+
+img.instructors-photo {
+	width: 100%;
+	height: 230px;
+}
+
+a.instructors-item::before {
+	background: #000;
+	content: '';
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	position: absolute;
+}
+
+a.instructors-item:hover::before {
+	position: relative;
+
+}
+
+a.instructors-item:active::before {
+	background: #74e196;
+	position: absolute;
+	opacity: 0.5;
+
+}
+
+.instructors-item:hover span {display: none;}
+
+
+
+span.instructors-name {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	bottom: 5px;
+	left: 15px;
+	color: #fff;
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+}
+
+
+.instructor-box {
+	width: 1040px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.instructor-box-foto {
+	float: left;
+	width: 270px;
+}
+
+.instructor-box-foto img {
+	width: 100%;
+}
+
+.instructor-inf {
+	width: 560px;
+	float: left;
+}
+
+.instructor-inf h2 {
+	margin-top: 0;
+	font-family: 'Futura PT Medium';
+	font-size: 30px;
+}
+
+.instructor-inf-box {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 40px;
+    text-align: center;
+    list-style: none;
+    position: relative;
+}
+
+.sequipment-icon {
+	background-image: url(../img/sprites.png);
+	background-position: -1px -2px;
+    width: 40px;
+    height: 72px;
+    position: absolute;
+    left: 40px;
+
+}
+
+.instructor-inf-box ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.fedback {
+	float: right;
+}
+
+.fedback a.btn {
+	display: block;
+	margin-bottom: 20px;
+	left: 0;
+}
+
+.fedback a.btn.like {
+	width: 70px;
+	position: relative;
+	padding-left: 40px;
+	color: #000;
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.fedback a.btn.like::before {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 26px;
+	background-image: url(../img/flash.png);
+	left: 15px;
+    top: 15px;
+}
+
+.fedback p {
+	margin-left: -30px;
+}
+
+.education {
+	width: 1040px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+
+.education-text {
+	width: 495px;
+	float: left;
+	 margin-right: 20px;
+}
+
+.education iframe {
+	float: left;
+	width: 495px;
+	margin-left: 25px;
+    margin-top: 20px;
+    height: 277px;
+}
+
+.education-text h3 {
+	font-family: 'Futura PT Demi';
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.education-text p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.review {
+	width: 1040px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image: url(../img/review-bg.jpg);
+}
+
+h2.review {
+	font-family: 'Futura PT Medium';
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: left;
+	padding: 45px 0 0 40px;
+	display: inline-block;
+    width: 176px;
+}
+
+.review p {
+	width: 700px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: left;
+	padding: 0 0 45px 45px;
+}
+
+.review a.social-links.vk {
+	width: 40px;
+	height: 24px;
+	margin-left: 10px;
+	vertical-align: bottom;
+
+}
+
+
+
+
+
+
+
+
+
+
